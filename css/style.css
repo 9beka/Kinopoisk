@@ -1,0 +1,53 @@
+@import url(./null.css);
+.box p {
+   text-align: center;
+   font-size: 16px;
+ 
+}
+.pagination input{
+   width: 90%;
+   border: 2px solid aqua;
+   padding: 10px;
+   margin-bottom: 5px;
+   position: fixed;
+}
+.pagination{
+   display: flex;
+   justify-content: center;
+}
+.pagination p {
+   margin: 10px;
+   border: 2px solid aqua;
+   padding: 10px;
+}
+.pagination p:hover{
+   border: 2px solid hotpink;
+}
+.change{
+   display: flex;
+   justify-content: center;
+}
+button{
+   padding: 10px;
+   width: 100px;
+   border: 2px solid aqua;
+}
+.search{
+   display: flex;
+   align-items: center;
+}
+.search input{ 
+   border-radius: 25px;
+   width: 23.333333%;
+   border: 2px solid aqua;
+   padding: 10px;
+   margin-bottom: 5px;
+}
+.search button{ 
+   border-radius: 25px;
+   width: 5%;
+   border: 2px solid aqua;
+   padding: 7px;
+   margin: 0;
+ 
+}
